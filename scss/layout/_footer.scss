@@ -1,0 +1,9 @@
+@use "../abstracts/vars" as vars;
+
+.bg-secondary{
+    background: vars.$clr-secondary;
+}
+
+.footer-list{
+    list-style: none;
+}

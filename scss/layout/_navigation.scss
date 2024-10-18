@@ -1,0 +1,23 @@
+@use "../abstracts/vars" as vars;
+@use "../abstracts/media-queries" as mq;
+
+.top-nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+
+    @include mq.respond-to(mq.$phone){
+        display: none;
+    }
+}
+
+.main-logo{
+    margin-right: 25rem;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+}

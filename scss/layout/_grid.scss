@@ -1,0 +1,25 @@
+@use "../abstracts/vars" as vars;
+
+.columns-container{
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+
+.st-item{
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    margin: auto;
+    text-align: center;
+    border: .1rem solid;
+}
+
+.st-name{
+    margin-top: -1rem;
+}
+
+.st-value{
+    margin-top: 1rem;
+}
